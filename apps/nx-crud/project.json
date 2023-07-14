@@ -90,6 +90,12 @@
       "options": {
         "buildTarget": "nx-crud:build"
       }
+    },
+    "version": {
+      "executor": "@jscutlery/semver:version",
+      "options": {
+        "preset": "conventional"
+      }
     }
   }
 }
